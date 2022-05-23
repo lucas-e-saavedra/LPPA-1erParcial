@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+section{
+    border: 3px solid lightblue;
+    margin: 5px;
+    padding: 10px;
+}
+
+section:first-of-type{
+    background-color: yellow;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+ul li::marker {
+    content: '✓';
+}
+
+h2, h3{
+    color: lightblue;
+}
+
+p{
+    margin-left: 50px;
+}
+
+#imglibro{
+    display: block;
+    margin-left: auto;
+}
+
+
+ol li:nth-child(1){
+    color: purple;
+}
+ol li:nth-child(2){
+    color: greenyellow;
+}
+ol li:nth-child(3){
+    color: violet;
+}
+ol li:nth-child(4){
+    color: orange;
+}ol li:nth-child(5){
+    color: blueviolet;
+}
